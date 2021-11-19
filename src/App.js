@@ -5,7 +5,8 @@ function App() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [showScore, setShowScore] = useState(false);
   const [score, setScore] = useState(0);
-  const [questions, setQuestions] = useState(data);
+  const [questions,] = useState(data);
+
 
   const handlerCheck = (answer) => {
     if (answer === true) {
